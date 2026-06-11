@@ -7,6 +7,7 @@ export interface TStorageFile {
   id?: number,
   key: string,
   remote?: boolean,
+  platform?: string,
   belongs_id?: string,
   belongs_type?: string,
   owner_id?: number,
